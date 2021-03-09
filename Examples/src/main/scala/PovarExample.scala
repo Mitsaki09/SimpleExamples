@@ -94,12 +94,7 @@ object PovarExample extends App {
     case strPir: String if strPir.toUpperCase() == "ПИРОЖЕНКА" => println(Console.MAGENTA_B + "начинку добавляем?")
     case strZefir: String if strZefir.toUpperCase() == "ЗЕФИРКА" => println(Console.MAGENTA_B + "присыпку добавляем?")
     case _ => println(Console.BLACK_B+Console.RED+ "ничего не понял, пошёл вон")
-
-
   }
-
-
-
 }
 
 
