@@ -1,37 +1,53 @@
-object Test extends App {
+import scala.concurrent.duration.Duration
+import scala.concurrent.{Await, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
+object Test extends App{
 
-  object CLAL {
-    def printName(first: String, last: String): Unit = {
-      println(first + " " + last)
+  def getName:Future[String] = {
+    Thread.sleep(3000)
+    println("Name(напиши Валера)")
+    val questionName: String = scala.io.StdIn.readLine.toUpperCase()
+    if (questionName == "ВАЛЕРА"){
+      Future.successful(questionName)
+    }else{
+      Future.failed(throw new Exception("No"))
     }
 
   }
 
-  CLAL.printName("John", "Smith")  // Prints "John Smith"
-  CLAL.printName(first = "John", last = "Smith")  // Prints "John Smith"
-  CLAL.printName(last = "Smith", first = "John")  // Prints "John Smith"
 
 
-
-
-}
-object Vasya extends App {
-
-class Human(firstName:String = "Василий ",lastName:String="Пупкин ",age:Int = 36) {
-  println(firstName + lastName + age )
-
+def getAge:Future[Int] = {
+  Thread.sleep(3000)
+  println("Age")
+  val questionAge:Int = scala.io.StdIn.readInt()
+  if ( questionAge>=0){
+    Future.successful(questionAge)
+  }else{
+    Future.failed(new Exception("NOO") )
   }
-val da = new Human()
-  val net = new Human(firstName = "Андрюша ",age = 5 )
 }
-object GavnoNaZavtra extends App{
-
-  class NeHuman (kakashkapervaja:String = "зелёная",kakashkavtoraja:String = "нежноголубосалатово вонючая ") {
-    println(kakashkapervaja+kakashkavtoraja)
+  // вариант , где не нужно писать Future.successful . Разница в том, что ищет само где что нужно , а в варианте выше я указываю что как и где
+  def getAge2:Future[Int] = Future {
+    Thread.sleep(3000)
+    println("Age")
+    val questionAge:Int = scala.io.StdIn.readInt()
+    if ( questionAge>=0){
+      questionAge
+    }else{
+      throw new Exception("NOO")
+    }
   }
-  val Aminochka = new NeHuman(kakashkapervaja = "пахнет ромашками,обычная ",kakashkavtoraja = "вся в блёстках")
-  val RodionSuka = new NeHuman()
-  val Da = new NeHuman(kakashkavtoraja = " Артём")
+
+  val result2: String = Await.result(getName,Duration.Inf)
+  println(result2)
+
+  val result: Int = Await.result(getAge,Duration.Inf)
+  println(result)
+
+
+
 
 
 }
+
