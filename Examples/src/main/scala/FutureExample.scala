@@ -29,3 +29,6 @@ object FutureExample extends App {
   val a: Future[Int] = Future.successful(1)
   val b: Future[Int] = Future.failed(new Exception())
 }
+//когда создаёшь несколько с Future , то результаты должны быть отдельными , нельзя в один реузльтат помешать два действия
+
+

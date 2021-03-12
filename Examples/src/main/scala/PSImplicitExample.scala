@@ -20,6 +20,7 @@ object PSImplicitExample extends App {
 //  implicit val b = Sufix("<---")
 //
 //
+//
 //  printRed("1")
 //  printBlue("1")
 //  printYellow("1")
