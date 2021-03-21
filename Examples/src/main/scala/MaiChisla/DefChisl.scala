@@ -1,0 +1,5 @@
+package MaiChisla
+
+object DefChisl {
+
+}
