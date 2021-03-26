@@ -1,3 +1,4 @@
 package MaiChisla
 
-case class ClassChs()
+case class MyNumbersA(a:Int,b:Int)
+
