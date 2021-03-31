@@ -33,7 +33,6 @@ object PigProject extends App {
   val bindingFuture = Http().bindAndHandle(routes, "localhost", 8081)
 
   println(s"Server online at http://localhost:8081/\nPress RETURN to stop...")
-  println(s"Пример вызова метода http://localhost:8081/api/v1/pig/view/15")
   StdIn.readLine() // let it run until user presses return
   bindingFuture
     .flatMap(_.unbind()) // trigger unbinding from the port

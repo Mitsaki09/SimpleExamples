@@ -15,6 +15,7 @@ trait PigDAO {
 
   def create(pig: Pig): DBIO[Int]
 
+  def update(pig: Pig): DBIO[Int]
 }
 
 class PigDAOImpl(implicit executionContext: ExecutionContext) extends PigDAO {
@@ -26,9 +27,11 @@ class PigDAOImpl(implicit executionContext: ExecutionContext) extends PigDAO {
   override def create(pig: Pig): DBIO[Int] = pigs += pig
 
   override def findById(id: Int): DBIO[Option[Pig]] = {
-    pigs.filter(_.id === id).result.headOption
-  }
+    pigs.filter(_.id === id).result.headOption}
 
+  override def update(pig: Pig): DBIO[Int] = {
+    pigs.filter(_.id === pig.id).update(pig)
+  }
 
 }
 

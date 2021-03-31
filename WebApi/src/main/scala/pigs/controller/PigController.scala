@@ -17,7 +17,8 @@ class PigController(pigService: PigService) extends Controller {
 
   override def route: Route =
     getPig ~
-    createPig
+    createPig ~
+    updatePig
 
   protected def getPig: Route = pathPrefix("pig") {
     path("view" / IntNumber) { id =>
@@ -32,7 +33,16 @@ class PigController(pigService: PigService) extends Controller {
     path("sozdat") {
       (put & entity(as[Pig]) ){ pig =>
         onComplete(pigService.createPig(pig)) {
-          case Success(v) => complete(v)
+          case Success(_) => complete("создался")
+        }
+      }
+    }
+  }
+  protected def updatePig: Route = pathPrefix("pig") {
+    path("izmen") {
+      (post & entity(as[Pig]) ){ pig =>
+        onComplete(pigService.updatePig(pig)) {
+          case Success(_) => complete("изменился")
         }
       }
     }
