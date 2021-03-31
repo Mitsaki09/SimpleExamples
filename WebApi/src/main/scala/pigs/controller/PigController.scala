@@ -1,10 +1,11 @@
 package pigs.controller
 
 import akka.http.scaladsl.marshalling.ToResponseMarshaller
+import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
 import akka.http.scaladsl.model.{HttpEntity, HttpResponse, MediaTypes}
 import akka.http.scaladsl.server.Route
-import io.circe.generic.auto._
 import io.circe.{Encoder, Printer}
+import pigs.model.Pig
 import pigs.service.PigService
 import utils.Controller
 
@@ -12,10 +13,14 @@ import scala.util.Success
 
 class PigController(pigService: PigService) extends Controller {
 
-  override def route: Route = getPig
+  import pigs.model.PigImplicits._
+
+  override def route: Route =
+    getPig ~
+    createPig
 
   protected def getPig: Route = pathPrefix("pig") {
-    path("get" / IntNumber) { id =>
+    path("view" / IntNumber) { id =>
       get {
         onComplete(pigService.getPig(id)) {
           case Success(v) => complete(v)
@@ -23,6 +28,16 @@ class PigController(pigService: PigService) extends Controller {
       }
     }
   }
+  protected def createPig: Route = pathPrefix("pig") {
+    path("sozdat") {
+      (put & entity(as[Pig]) ){ pig =>
+        onComplete(pigService.createPig(pig)) {
+          case Success(v) => complete(v)
+        }
+      }
+    }
+  }
+
 
 
   implicit def jsonMarshaller[A](implicit encoder: Encoder[A], e: ToResponseMarshaller[HttpResponse]): ToResponseMarshaller[A] =

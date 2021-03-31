@@ -12,6 +12,12 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
   "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
 
+  "com.typesafe.slick" %% "slick" % "3.3.2",
+  "com.github.tminglei" %% "slick-pg_core" % "0.18.1",
+
+  "io.circe" %% "circe-core" % "0.13.0-RC1",
   "io.circe" %% "circe-parser" % "0.13.0-RC1",
+  "de.heikoseeberger" %% "akka-http-circe" % "1.31.0" withSources(),
   "io.circe" %% "circe-generic" % "0.13.0-RC1"
+
 )
