@@ -21,3 +21,10 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic" % "0.13.0-RC1"
 
 )
+
+import com.permutive.sbtliquibase.SbtLiquibase
+enablePlugins(SbtLiquibase)
+liquibaseUsername := "postgres"
+liquibasePassword := "1234"
+liquibaseDriver   := "org.postgresql.Driver"
+liquibaseUrl      := "jdbc:postgresql://localhost:5432/car"

@@ -1,49 +1,49 @@
-package terraria.controller
+package humanStatus.controller
 
 import akka.http.scaladsl.marshalling.ToResponseMarshaller
-import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
 import akka.http.scaladsl.model.{HttpEntity, HttpResponse, MediaTypes}
 import akka.http.scaladsl.server.Route
+import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
+import humanStatus.model.Human
+import humanStatus.service.HumanService
 import io.circe.{Encoder, Printer}
 import utils.Controller
+
 import scala.util.Success
-import terraria.model.Boss
-import terraria.service.BossService
 
-class BossController(bossService: BossService) extends Controller {
+class HumanController(humanService: HumanService) extends Controller {
 
-  import terraria.model.BossImplicits._
+  import humanStatus.model.HumanImplicits._
 
   override def route: Route =
-    getBoss ~
-      createBoss ~
-      updateBoss
+    getHuman ~
+      createHuman ~
+      updateHuman
 
-  protected def getBoss: Route = pathPrefix("boss") {
+  protected def getHuman: Route = pathPrefix("human") {
     path("view" / IntNumber) { id =>
       get {
-        onComplete(bossService.getBoss(id)) {
+        onComplete(humanService.getHuman(id)) {
           case Success(v) => complete(v)
         }
       }
     }
   }
 
-  protected def createBoss: Route = pathPrefix("boss") {
+  protected def createHuman: Route = pathPrefix("human") {
     path("sozdat") {
-      (put & entity(as[Boss])) { boss =>
-        onComplete(bossService.createBoss(boss)) {
-
+      (put & entity(as[Human])) { human =>
+        onComplete(humanService.createHuman(human)) {
           case Success(_) => complete("создался")
         }
       }
     }
   }
 
-  protected def updateBoss: Route = pathPrefix("boss") {
+  protected def updateHuman: Route = pathPrefix("human") {
     path("izmen") {
-      (post & entity(as[Boss])) { boss =>
-        onComplete(bossService.updateBoss(boss)) {
+      (post & entity(as[Human])) { human =>
+        onComplete(humanService.updateHuman(human)) {
           case Success(_) => complete("изменился")
         }
       }

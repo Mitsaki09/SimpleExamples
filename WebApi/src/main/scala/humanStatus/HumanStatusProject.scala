@@ -1,17 +1,18 @@
-package terraria
+package humanStatus
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives.{pathPrefix, _}
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
+import humanStatus.controller.HumanController
+import humanStatus.dao.HumanDAOImpl
+import humanStatus.service.HumanServiceImpl
 import terraria.controller.BossController
-import terraria.dao.BossDAOImpl
-import terraria.service.BossServiceImpl
 
 import scala.io.StdIn
 
-object BossProject extends App {
+object HumanStatusProject extends App {
 
   implicit val system = ActorSystem("my-system")
   implicit val materializer = ActorMaterializer()
@@ -19,14 +20,14 @@ object BossProject extends App {
   implicit val executionContext = system.dispatcher
 
 
-  val bossDAOImpl = new BossDAOImpl
-  val bossService = new BossServiceImpl(bossDAOImpl)
-  val bossController = new BossController(bossService)
+  val humanDAOImpl = new HumanDAOImpl
+  val humanService = new HumanServiceImpl(humanDAOImpl)
+  val humanController = new HumanController(humanService)
 
 
   private val routes: Route =
     pathPrefix("api" / "v2") {
-      bossController.route
+      humanController.route
     }
 
 
@@ -39,5 +40,6 @@ object BossProject extends App {
   bindingFuture
     .flatMap(_.unbind())
     .onComplete(_ => system.terminate())
+
 
 }
