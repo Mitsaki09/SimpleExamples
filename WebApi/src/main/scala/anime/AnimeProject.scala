@@ -1,0 +1,5 @@
+package anime
+
+object AnimeProject {
+
+}
