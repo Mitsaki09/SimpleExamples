@@ -1,6 +1,5 @@
 package engine.dao
 
-
 import engine.model.{Car, Engine}
 import engine.tables.CarModel.cars
 import slick.dbio.DBIO
