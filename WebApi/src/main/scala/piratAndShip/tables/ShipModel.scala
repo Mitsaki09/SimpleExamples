@@ -2,6 +2,7 @@ package piratAndShip.tables
 import piratAndShip.model.Ship
 import slick.jdbc.PostgresProfile.api._
 import slick.lifted.Tag
+
 object ShipModel {
 
   class ShipTable(tag: Tag) extends Table[Ship](tag, "ship") {

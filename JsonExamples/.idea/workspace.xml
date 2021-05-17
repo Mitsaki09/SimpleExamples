@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1aa7084c-e174-44c8-a04c-9d6442932454" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../zalupa/src/main/scala/factorailExample/Factorial1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$26c43fcbfef36d0f8ac3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$26c43fcbfef36d0f8ac3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$26c43fcbfef36d0f8ac3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/AnimeProject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/AnimeProject.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/dao/AnimeDAO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/dao/AnimeDAO.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/humanStatus/HumanStatusProject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/humanStatus/HumanStatusProject.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/piratAndShip/tables/ShipModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/piratAndShip/tables/ShipModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zalupa/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../zalupa/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zalupa/src/main/scala/Algbr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../zalupa/src/main/scala/Algbr.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1s1LfuThBqOBdJCycLFodYw3SqC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebApi" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aa7084c-e174-44c8-a04c-9d6442932454" name="Default Changelist" comment="" />
+      <created>1620035257926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620035257926</updated>
+    </task>
+    <servers />
+  </component>
+</project>

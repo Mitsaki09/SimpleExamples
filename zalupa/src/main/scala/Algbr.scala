@@ -2,7 +2,7 @@ object Algbr extends App {
 
   class Alggb {
 
-    def algb(a: Short, b: Short): Unit = {
+    def algb(): Unit = {
 
       val Kvadrat: Double = Math.pow(2, 4)
 
@@ -12,6 +12,7 @@ object Algbr extends App {
 
 val Kvadrat = new Alggb
 
-  Kvadrat.algb(12,3)
+  Kvadrat.algb()
 }
+
 

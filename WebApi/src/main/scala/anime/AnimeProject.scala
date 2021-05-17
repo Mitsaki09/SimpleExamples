@@ -1,5 +1,5 @@
 package anime
 
-object AnimeProject {
-
+object AnimeProject extends App{
+print("fgjvngvhyjn")
 }

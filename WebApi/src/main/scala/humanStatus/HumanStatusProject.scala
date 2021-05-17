@@ -8,7 +8,6 @@ import akka.stream.ActorMaterializer
 import humanStatus.controller.HumanController
 import humanStatus.dao.HumanDAOImpl
 import humanStatus.service.HumanServiceImpl
-import terraria.controller.BossController
 
 import scala.io.StdIn
 

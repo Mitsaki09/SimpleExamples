@@ -43,4 +43,10 @@ val bolnica = new Bolnica(medsestra,medsestra2,stomatolog,hirurg,ortoped)
   println(bolnica.sumWithPrint3)
 
 
+  def seyHello(name: String): Unit = {
+    println("Hello " + name)
+  }
+
+  val sayHelllo:String => Unit = name => println("Hello" + name )
+
 }

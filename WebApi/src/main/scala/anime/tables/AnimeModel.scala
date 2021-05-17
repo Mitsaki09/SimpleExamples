@@ -30,3 +30,6 @@ object AnimeModel {
   }
   val animes= TableQuery[AnimeTable]
 }
+
+
+
