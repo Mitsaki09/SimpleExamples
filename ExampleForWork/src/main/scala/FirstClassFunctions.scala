@@ -1,11 +1,13 @@
 object FirstClassFunctions extends App {
-
-
   //First-Class Functions
-  def sum2numbers(a: Int, b: Int): Int = a + b
+  def sum2numbers(a: Int, b: Int): Int = {
+    a + b
+  }
 
   // Это обычная функция
   val sum2numbersFunction: (Int, Int) => Int = (a, b) => a + b
+
+
   println(sum2numbersFunction(5, 5))
   // (Int, Int)           2 параметра типа Int
   // => Int               тип, который возвращаем
@@ -34,6 +36,7 @@ object FirstClassFunctions extends App {
 
   def takeStrDes(opr: Boolean => Either[String, Int], a: Boolean): String = {
     opr(a).toString
+
   }
 
   println(takeStrDes(str, true))
@@ -128,9 +131,119 @@ object FirstClassFunctions extends App {
   }
 
 
+  object DD {
+    def one: Int = 1
+
+    def two(): Int = 2
+  }
+
+  object DD2 {
+
+    import FirstClassFunctions.DD.one
+
+    val dd = DD.one _
+    val ddd = DD.two _
+
+
+  }
+
+  def minus(a: Int, b: Int): Int = a - b
+
+  val minusFive: Int => Int = minus(_, 5) //  частично примененная функция (partially applied function)
+  println(minusFive(7))
+
+
+  def in(): Int = 6
+
+  def in2(): Int = 6
+
+  val gggg = in _ // если мы хотим превратить метод без парамметров в функцию, то пишем _
+  val ggggg = in2 _
+
+
+  abstract class Human6(val weight: Int, val height: Int, val age: Int)
+
+  class Soldat(weight: Int, height: Int, age: Int) extends Human6(weight, height, age)
+
+  class Tractorist(weight: Int, height: Int, age: Int) extends Human6(weight, height, age)
+
+  val soldatFunct: (Int, Int, Int) => Soldat = (weight, height, age) => new Soldat(124, 421, 12)
+  val TractoristFunct: (Int, Int, Int) => Tractorist = (weight, height, age) => new Tractorist(124, 421, 12)
+
+
+  val functHuman: (Int, Int, Int) => Soldat = soldatFunct(_, _, _)
+
+  val human: Human6 = functHuman(2, 4, 5)
+
+
+  class Pilot(val name: String, val rang: String)
+
+  class Plain(val pilot: Pilot, val modelPlain: String, val agePlain: Int)
+
+  val plainFunct: (Pilot, String, Int) => Plain = (pilot, modelPlain, agePlain) => new Plain(pilot, modelPlain, agePlain)
+  val functPlain2: Pilot => Plain = plainFunct(_, "Куроносец", 1984) // пишем тип функции только тот, который у _
+  val functPlain3 = plainFunct(_, "Куроносец", 1984) // пишем тип функции только тот, который у _
 
 
 
+
+
+
+
+
+
+
+
+  case class Cat(bubenchiki: Boolean, nameCat: String)
+
+  val catFunct: (Boolean, String) => Cat = (bubenchiki, nameCat) => Cat(bubenchiki, nameCat)
+
+  val catFunct2: (Boolean, Cat) => Cat = (needKastrirovat, cat) => {
+    if (needKastrirovat == true) {
+
+      cat.copy(bubenchiki = false)
+
+    } else
+      cat
+  }
+
+
+
+
+  class Glist( val dlina:Int, val diametr:Int, val ves:Int)
+  val glist1 = new Glist (55,1,30)
+  val glist2 = new Glist (60,2,20)
+  val glist3 = new Glist (53,1,28)
+  val glist4 = new Glist (51,3,41)
+  val glist5 = new Glist (50,2,13)
+  val glist6 = new Glist (415,523,1651)
+  val SpisokGlistov = Seq (glist1,glist2,glist3,glist4,glist5)
+
+
+
+
+   // .length - метод length (), который возвращает количество символов(в нашем случае глистов), содержащихся в строковом объекте.
+
+  val glistFunct1: Seq[Glist] => Int = seqGli => seqGli.length
+
+  val glistFunct2: Seq[Glist] => Int = seqGll => seqGll.map(x=>x.ves).sum
+
+
+  val glistFunct3: (Seq[Glist],Glist) => Seq[Glist] = (seqGll:Seq[Glist],gl:Glist) => seqGll :+ gl
+
+  println(glistFunct3(SpisokGlistov,glist6))
+
+
+
+    // :+ если мы хотим к списку доавить ещё один элемент, то мы не можем написать SeqGlist + glist 6 , мы должны написать :+   SeqGlist :+ glist 6
+  // если мы хотим добавить к списку ещё один список, то мы пишем :++
+
+  def sum(a:Int,b:Int):Int={
+
+    a+b
+  }
+
+
+println(sum(1,1))
 }
-
 

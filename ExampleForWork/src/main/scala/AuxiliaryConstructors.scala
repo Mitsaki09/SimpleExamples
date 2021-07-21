@@ -1,7 +1,7 @@
 object AuxiliaryConstructors extends App {
   case class Human(name:String,age:Int) {
 
-    def this(firstName:String, lastName:String, age:Int) = this(firstName + " " + lastName, age)
+    def this(firstName:String, lastName:String, age:Int) = this(firstName + " ня " + lastName, age)
 
   }
 
@@ -11,4 +11,5 @@ object AuxiliaryConstructors extends App {
   val human2 = new Human("Аминяша", "Котик",19)
 
   println(human2)
+  println(human)
 }
