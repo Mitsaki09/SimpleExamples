@@ -24,7 +24,7 @@ class PigDAOImpl(implicit executionContext: ExecutionContext) extends PigDAO {
 
   import PigModel.pigs
 
-  override def init = pigs.schema.create
+  override def init = pigs.schema.create // создать базу данным самим
 
   override def create(pig: Pig): DBIO[Int] = pigs += pig
 

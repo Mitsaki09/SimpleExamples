@@ -23,5 +23,5 @@ object PigModel { // место, где мы будем связывать ке�
     // склелили поля бд с кейс классом.
     override def * = (id, name, weight, gender, price).mapTo[Pig]
   }
-  val pigs = TableQuery[PigTable]
+  val pigs = TableQuery[PigTable] // список всех свиней
 }

@@ -26,7 +26,7 @@ object Main extends App {
 
   // комментируем одно из действий и запускаем
 
-  queryRunner.run(pigDAOImpl.create(myPig))
-  //queryRunner.run(pigDAOImpl.init)
+  queryRunner.run(pigDAOImpl.create(myPig))    // 2
+  //queryRunner.run(pigDAOImpl.init)       // init 1
 
 }
