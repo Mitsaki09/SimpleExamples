@@ -33,6 +33,7 @@ object FirstClassFunctions extends App {
       Right(12)
     }
   }
+  println(str(true))
 
   def takeStrDes(opr: Boolean => Either[String, Int], a: Boolean): String = {
     opr(a).toString
@@ -112,9 +113,9 @@ object FirstClassFunctions extends App {
 
   }
 
-  def bar(opr: Int => String): String = ???
+  //def bar(opr: Int => String): String = ???
 
-  val gg: (Int => String) => String = ???
+  //val gg: (Int => String) => String = ???
 
 
   def temp(): Int => String = {
@@ -245,5 +246,25 @@ object FirstClassFunctions extends App {
 
 
 println(sum(1,1))
+
+
+
+  def foo(a: Int) = {
+    println(a)
+    println(a)
+  }
+  def foo2(a: => Int) = {
+    println(a)
+    println(a)
+  }
+
+  def give5(a:Int) : Int = {
+    println("Кому-то нужна " + a)
+    a
+  }
+
+  foo(give5(5))
+  foo(give5(6))
+
 }
 
