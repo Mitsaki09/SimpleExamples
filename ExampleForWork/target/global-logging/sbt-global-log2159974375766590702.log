@@ -1,0 +1,25 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Compiling 1 protobuf files to D:\projects\SimpleExamples\ExampleForWork\target\scala-2.13\akka-grpc\main
+[info] Generating Akka gRPC service interface for com.example.SwordMasterServiceProto.HumanMasterService
+[info] Generating Akka gRPC client for com.example.SwordMasterServiceProto.HumanMasterService
+[info] Generating Akka gRPC service handler for com.example.SwordMasterServiceProto.HumanMasterService
+[info] compiling 46 Scala sources to D:\projects\SimpleExamples\ExampleForWork\target\scala-2.13\classes ...
+[warn] D:\projects\SimpleExamples\ExampleForWork\src\main\scala\ObjectEquality.scala:18:18: comparing a fresh object using `eq` will always yield false
+[warn]   val res3 = str eq new String("Str")
+[warn]                  ^
+[warn] D:\projects\SimpleExamples\ExampleForWork\src\main\scala\VariableScope.scala:31:3: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+[warn]   {
+[warn]   ^
+[warn] D:\projects\SimpleExamples\ExampleForWork\src\main\scala\VariableScope.scala:34:3: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+[warn]   {
+[warn]   ^
+[warn] 1 deprecation (since 2.13.0)
+[warn] 1 deprecation (since 2.13.2)
+[warn] 2 deprecations in total; re-run with -deprecation for details
+[warn] 2 feature warnings; re-run with -feature for details
+[warn] 7 warnings found
+[info] done compiling
+[success] Total time: 24 s, completed 25 авг. 2021 г., 12:58:32
+[debug] > Exec(idea-shell, None, None)

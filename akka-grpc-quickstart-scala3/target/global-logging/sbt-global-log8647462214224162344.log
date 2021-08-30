@@ -1,0 +1,16 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to D:\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes ...
+[error] D:\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterClient.scala:54:26: recursive value house needs type
+[error]   val house = House(Some(house),Some(house))
+[error]                          ^
+[error] D:\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterServiceImpl.scala:26:28: type mismatch;
+[error]  found   : com.example.helloworld.House
+[error]  required: com.example.helloworld.Citizen
+[error]     Future.successful(House(Some(Citizen("Свинка2")),Some(Citizen("Свинка1"))))
+[error]                            ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 27 авг. 2021 г., 15:51:38
+[debug] > Exec(idea-shell, None, None)

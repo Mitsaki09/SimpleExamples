@@ -1,11 +1,11 @@
 object FirstClassFunctions extends App {
   //First-Class Functions
-  def sum2numbers(a: Int, b: Int): Int = {
-    a + b
+  def sum2numbers(a: Int, b: Int): Unit = {
+    println(a + b)
   }
 
   // Это обычная функция
-  val sum2numbersFunction: (Int, Int) => Int = (a, b) => a + b
+  val sum2numbersFunction: (Int, Int) => Unit = (a, b) => println(a + b)
 
 
   println(sum2numbersFunction(5, 5))

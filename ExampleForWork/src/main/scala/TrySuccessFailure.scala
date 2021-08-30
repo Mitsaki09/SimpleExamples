@@ -21,7 +21,7 @@ class TrySuccessFailure {
   val ttEither: Either[Throwable, Int] = tryResult.toEither
   val tt: Int = tryResult.getOrElse(0)
 
-  val try: Try[Int] = Try(5)
+  val `try`: Try[Int] = Try(5)
   val trySucces: Try[Int] = Success(5)
   val tryFailure: Try[Int] = Failure(new Exception("fdbdf"))
 

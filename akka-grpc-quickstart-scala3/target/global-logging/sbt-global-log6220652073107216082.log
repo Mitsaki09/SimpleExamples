@@ -1,0 +1,11 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes ...
+[error] D:\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterClient.scala:36:7: reply2 is already defined as value reply2
+[error]   val reply2 = client.sayHumanInfo(humanRequest)
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 26 авг. 2021 г., 15:43:23
+[debug] > Exec(idea-shell, None, None)

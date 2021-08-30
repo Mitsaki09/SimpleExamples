@@ -1,0 +1,15 @@
+[debug] Extracted from C:\Users\Mitsaki\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.3\scalapb-runtime_2.13-0.11.3.jar:
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\scalapb\scalapb.proto
+[debug] Extracted from C:\Users\Mitsaki\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.15.8\protobuf-java-3.15.8.jar:
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\wrappers.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\field_mask.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\compiler\plugin.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\api.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\empty.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\timestamp.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\type.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\source_context.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\struct.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\duration.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\any.proto
+[debug]  * D:\projects\SimpleExamples\ExampleForWork\target\protobuf_external\google\protobuf\descriptor.proto

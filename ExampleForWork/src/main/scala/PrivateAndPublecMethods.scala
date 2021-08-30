@@ -25,4 +25,7 @@ object PrivateAndPublecMethods extends App {
   // mathTurbo.sum_Private(2, 3)  ошибка, нельзя вызывать
   // mathTurbo.sum_Protected(2, 3)    ошибка, нельзя вызывать
 
+
+
+
 }

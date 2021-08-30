@@ -1,0 +1,16 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 15 Scala sources to D:\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes ...
+[error] D:\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterClient.scala:44:51: type mismatch;
+[error]  found   : Int(1)
+[error]  required: String
+[error]   val workInfoHumanRequest = WorkInfoHumanRequest(1)
+[error]                                                   ^
+[error] D:\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterServiceImpl.scala:23:80: value id is not a member of com.example.helloworld.WorkInfoHumanRequest
+[error]     Future.successful(WorkInfoHumanReply("Свинарник",Some(HumanRequest(request.id,"Свинка","Дмитрий","Леонидович",23400))))
+[error]                                                                                ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 3 s, completed 27 авг. 2021 г., 15:15:00
+[debug] > Exec(idea-shell, None, None)

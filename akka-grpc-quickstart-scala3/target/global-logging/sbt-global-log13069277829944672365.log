@@ -1,0 +1,11 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to D:\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes ...
+[error] D:\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterClient.scala:54:26: recursive value house needs type
+[error]   val house = House(Some(house),Some(house))
+[error]                          ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 27 авг. 2021 г., 15:51:49
+[debug] > Exec(idea-shell, None, None)

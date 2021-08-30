@@ -1,0 +1,6 @@
+[debug] Acquiring lock on file D:\GRPC_Example\akka-grpc-quickstart-scala3\project\target\.sbt-compilation-infos\akka-grpc-quickstart-scala3-compile\.sbt-idea-lock ...
+[error] D:\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterClient.scala:54:26: recursive value house needs type
+[error]   val house = House(Some(house),Some(house))
+[error]                          ^
+[error] one error found
+[debug] Releasing lock on file D:\GRPC_Example\akka-grpc-quickstart-scala3\project\target\.sbt-compilation-infos\akka-grpc-quickstart-scala3-compile\.sbt-idea-lock.

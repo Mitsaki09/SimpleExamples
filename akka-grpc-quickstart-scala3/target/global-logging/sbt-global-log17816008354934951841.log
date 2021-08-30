@@ -1,0 +1,16 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 11 Scala sources to C:\Scala im\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes ...
+[error] C:\Scala im\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterServiceImpl.scala:7:7: class GreeterServiceImpl needs to be abstract. Missing implementation for:
+[error]   def sayPigInfo(in: com.example.helloworld.PigInfoRequest): scala.concurrent.Future[com.example.helloworld.PigInfoReply] // inherited from trait GreeterService
+[error] class GreeterServiceImpl(system: ActorSystem[_]) extends GreeterService {
+[error]       ^
+[error] C:\Scala im\GRPC_Example\akka-grpc-quickstart-scala3\src\main\scala\com\example\helloworld\GreeterServiceImpl.scala:16:16: method SayPigInfo overrides nothing
+[error]   override def SayPigInfo (request: PigInfoRequest): Future[PigInfoReply] = {
+[error]                ^
+[error] two errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed 26 авг. 2021 г., 13:14:31
+[debug] > Exec(idea-shell, None, None)

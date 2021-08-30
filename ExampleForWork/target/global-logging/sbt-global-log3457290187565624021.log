@@ -1,0 +1,11 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\projects\SimpleExamples\ExampleForWork\target\scala-2.13\classes ...
+[error] D:\projects\SimpleExamples\ExampleForWork\src\main\scala\Proto.scala:14:15: not found: value HumanRequest
+[error]   val human = HumanRequest("Я",18,45)
+[error]               ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 25 авг. 2021 г., 13:00:02
+[debug] > Exec(idea-shell, None, None)

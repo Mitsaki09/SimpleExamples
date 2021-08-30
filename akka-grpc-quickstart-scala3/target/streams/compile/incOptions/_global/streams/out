@@ -1,0 +1,82 @@
+[debug] Created transactional ClassFileManager with tempDir = D:\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	GreeterClient$$anonfun$4.class
+[debug] 	GreeterService$MethodDescriptors$.class
+[debug] 	GreeterServiceClient$.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$2.class
+[debug] 	GreeterServiceHandler$.class
+[debug] 	GreeterClient$$anonfun$2.class
+[debug] 	GreeterServiceClient.class
+[debug] 	GreeterClient$$anonfun$3.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$1.class
+[debug] 	HelloworldProto.class
+[debug] 	GreeterServiceHandler.class
+[debug] 	GreeterClient.class
+[debug] 	HelloworldProto$.class
+[debug] 	GreeterService$.class
+[debug] 	DefaultGreeterServiceClient$.class
+[debug] 	GreeterClient$.class
+[debug] 	GreeterServiceClientPowerApi.class
+[debug] 	DefaultGreeterServiceClient.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$4.class
+[debug] 	GreeterClient$$anonfun$1.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$3.class
+[debug] 	GreeterServiceImpl.class
+[debug] 	GreeterService.class
+[debug] 	GreeterService$Serializers$.class
+[debug] 	GreeterClient$delayedInit$body.class
+[debug] We backup class files:
+[debug] 	GreeterClient$$anonfun$4.class
+[debug] 	GreeterService$MethodDescriptors$.class
+[debug] 	GreeterServiceClient$.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$2.class
+[debug] 	GreeterServiceHandler$.class
+[debug] 	GreeterClient$$anonfun$2.class
+[debug] 	GreeterServiceClient.class
+[debug] 	GreeterClient$$anonfun$3.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$1.class
+[debug] 	HelloworldProto.class
+[debug] 	GreeterServiceHandler.class
+[debug] 	GreeterClient.class
+[debug] 	HelloworldProto$.class
+[debug] 	GreeterService$.class
+[debug] 	DefaultGreeterServiceClient$.class
+[debug] 	GreeterClient$.class
+[debug] 	GreeterServiceClientPowerApi.class
+[debug] 	DefaultGreeterServiceClient.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$4.class
+[debug] 	GreeterClient$$anonfun$1.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$3.class
+[debug] 	GreeterServiceImpl.class
+[debug] 	GreeterService.class
+[debug] 	GreeterService$Serializers$.class
+[debug] 	GreeterClient$delayedInit$body.class
+[debug] Rolling back changes to class files.
+[debug] Removing generated classes:
+[debug] Restoring class files: 
+[debug] 	HelloworldProto$.class
+[debug] 	GreeterClient$.class
+[debug] 	GreeterClient$$anonfun$1.class
+[debug] 	GreeterServiceHandler$.class
+[debug] 	GreeterServiceClient$.class
+[debug] 	GreeterService.class
+[debug] 	HelloworldProto.class
+[debug] 	GreeterService$.class
+[debug] 	GreeterServiceClient.class
+[debug] 	DefaultGreeterServiceClient$.class
+[debug] 	GreeterService$Serializers$.class
+[debug] 	GreeterServiceHandler.class
+[debug] 	GreeterClient$$anonfun$4.class
+[debug] 	GreeterClient$delayedInit$body.class
+[debug] 	GreeterClient$$anonfun$3.class
+[debug] 	GreeterService$MethodDescriptors$.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$3.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$4.class
+[debug] 	GreeterServiceImpl.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$1.class
+[debug] 	GreeterClient.class
+[debug] 	GreeterServiceHandler$$anonfun$apply$2.class
+[debug] 	GreeterClient$$anonfun$2.class
+[debug] 	DefaultGreeterServiceClient.class
+[debug] 	GreeterServiceClientPowerApi.class
+[debug] Removing the temporary directory used for backing up class files: D:\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes.bak

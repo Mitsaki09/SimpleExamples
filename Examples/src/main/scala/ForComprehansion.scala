@@ -23,7 +23,7 @@ object ForComprehansion extends App {
 
   // синтаксический сахар, нужен только для более красивого вида. Тоже самое что и с мап
   val nameOptCAPSWithFor: Option[String] =
-    for {
+    for {   // ForComprehansion обычно используют с Option,Either.Если внутри этих МОНАД есть что то, то ForComprehansion выполнится
       name <- nameOpt
     } yield name.toUpperCase
 
@@ -95,41 +95,5 @@ object ForComprehansion extends App {
   }yield (a1+a2+a3+a4)
 
 
-  val SumFor2: Try[Int] = try1.flatMap(a1 => try2.flatMap(a2 => try3.flatMap(a3 => try4.map(a4 => (a1 + a2 + a3 + a4)))))
-
-
-  val Either1: Either[Int,Int] = ???
-  val Either2: Either[Int,Int] = ???
-  val Either3: Either[Int,Int] = ???
-  val Either4: Either[Int,Int] = ???
-
-  val tryResultMatch2: Either[Int,Int] = try1 match {
-    case Left(a11) =>
-      Either1 match {
-        case Left(a22)=>
-          Either2 match {
-            case Left(a33)=>
-              Either3 match {
-                case Left(a44) => Left(a11+a22+a33+a44)
-                case Right(e44) => Right(e44)
-              }
-            case Right(e33) => Right(e33)
-          }
-        case Right(e22) => Right(e22)
-      }
-    case Right(ee) => Right(ee)
-  }
-
-  val
-  SumFor2: Either[Int] = for {
-    a1<-Either1
-    a2<-Either2
-    a3<-Either3
-    a4<-Either4
-
-  }yield (a1+a2+a3+a4)
-
-
-  val SumFor2: Either[Int,Int] = try1.flatMap(a1 => try2.flatMap(a2 => try3.flatMap(a3 => try4.map(a4 => (a1 + a2 + a3 + a4)))))
 
 }

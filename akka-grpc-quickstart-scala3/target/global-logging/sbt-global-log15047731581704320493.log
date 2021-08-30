@@ -1,0 +1,9 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 11 Scala sources to C:\Scala im\GRPC_Example\akka-grpc-quickstart-scala3\target\scala-2.13\classes ...
+[warn] 1 deprecation; re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[success] Total time: 3 s, completed 26 авг. 2021 г., 13:16:32
+[debug] > Exec(idea-shell, None, None)

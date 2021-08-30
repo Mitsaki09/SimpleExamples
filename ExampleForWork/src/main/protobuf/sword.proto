@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.SwordMasterServiceProto";
+
+message Sword {
+  string name = 1;
+  int32 dmg = 2;
+  int32 length = 3;
+}
+message Eat {
+  int32 id = 1;
+  string name = 2;
+  string description = 3;
+}
+message Outer {
+  message MiddleAA {// Level 1
+    message Inner {// Level 2
+      int64 ival = 1;
+      bool  booly = 2;
+    }
+  }
+}
+message Kakashka {
+  int64 size = 1;
+}
+
+message Jopa {
+  Kakashka kakashka = 1;
+  string color = 2;
+}
+message Toilet {
+  Jopa jopa = 1;
+  string color = 2;
+}
+message Wheel {
+  int64 radius = 1;
+  int64 price = 2;
+  string brand = 3;
+}
+message Cart {
+  Wheel wheel1 = 1;
+  Wheel wheel2 = 2;
+  Wheel wheel3 = 3;
+  Wheel wheel4 = 4;
+
+}
+
+
+
+
+
+
+
+
+
+message HumanRequest {
+  string name = 1;
+  int32 age = 2;
+  int32 weight = 3;
+}
+message HumanReply {
+  bool res = 1;
+}
+service HumanMasterService{
+  rpc SayHuman (HumanRequest) returns (HumanReply) {}
+}

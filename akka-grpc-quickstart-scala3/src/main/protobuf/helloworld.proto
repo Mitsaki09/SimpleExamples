@@ -1,0 +1,59 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.helloworld";
+option java_outer_classname = "HelloWorldProto";
+
+service GreeterService {
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+    rpc SayPigInfo (PigInfoRequest) returns (PigInfoReply){}
+    rpc SayHumanInfo (HumanRequest) returns (HumanReply){}
+    rpc SayWorkInfoHuman (WorkInfoHumanRequest) returns (WorkInfoHumanReply){}
+
+}
+
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloReply {
+    string message = 1;
+}
+
+message PigInfoRequest {
+    int64 id = 1;
+}
+
+message PigInfoReply {
+    int64 id = 1;
+    string name = 2;
+    int64  weight = 3;
+}
+
+message HumanRequest {
+    int64 id = 1;
+    string firstName = 2;
+    string middleName = 3;
+    string lastName = 4;
+    int64  weight = 5;
+}
+
+message HumanReply {
+    int64 id = 1;
+    string firstName = 2;
+    string middleName = 3;
+    string lastName = 4;
+    int64  weight = 5;
+}
+message WorkInfoHumanRequest {
+
+    string position = 1;
+    HumanRequest humanRequest = 2;
+}
+message WorkInfoHumanReply {
+
+    string position = 1;
+    HumanRequest humanRequest = 2;
+}
+
