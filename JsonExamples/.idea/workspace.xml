@@ -5,19 +5,257 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aa7084c-e174-44c8-a04c-9d6442932454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../zalupa/src/main/scala/factorailExample/Factorial1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_hpack_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_6_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_13_10_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_13_10_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_13_10_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_13_2_6_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_13_2_6_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_13_0_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__de_heikoseeberger_akka_http_circe_2_13_1_36_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_core_2_13_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_generic_2_13_0_13_0_RC1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_jawn_2_13_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_numbers_2_13_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_parser_2_13_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_0_9_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_13_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_core_2_13_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_jawn_parser_2_13_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SlickExample2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SlickExample2/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/project/target/config-classes/$58890fd5a26ff924c0c9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/project/target/config-classes/$58890fd5a26ff924c0c9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/project/target/config-classes/$58890fd5a26ff924c0c9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$004fbf532f8d8ad30410$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$004fbf532f8d8ad30410.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$004fbf532f8d8ad30410.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$0061386b0bc668761a7b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$0061386b0bc668761a7b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$0061386b0bc668761a7b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$62d5837d4339324c45ad$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$62d5837d4339324c45ad.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$62d5837d4339324c45ad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$8af113c365b1ace3f125$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$8af113c365b1ace3f125.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$8af113c365b1ace3f125.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$a6c4bdb2f24736a0bf10$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$a6c4bdb2f24736a0bf10.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$a6c4bdb2f24736a0bf10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$ea0c1a91324742efefc3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$ea0c1a91324742efefc3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$ea0c1a91324742efefc3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$fd7cc24ce4c224809083$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$fd7cc24ce4c224809083.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/config-classes/$fd7cc24ce4c224809083.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/FirstClassFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/FirstClassFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$26c43fcbfef36d0f8ac3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$26c43fcbfef36d0f8ac3.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$26c43fcbfef36d0f8ac3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/AnimeProject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/AnimeProject.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/dao/AnimeDAO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/anime/dao/AnimeDAO.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/humanStatus/HumanStatusProject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/humanStatus/HumanStatusProject.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApi/src/main/scala/piratAndShip/tables/ShipModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/src/main/scala/piratAndShip/tables/ShipModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zalupa/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../zalupa/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zalupa/src/main/scala/Algbr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../zalupa/src/main/scala/Algbr.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_core_2_13_0_12_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_generic_2_13_0_12_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_jawn_2_13_0_12_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_numbers_2_13_0_12_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_parser_2_13_0_12_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_core_2_13_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_kernel_2_13_2_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_kernel_2_13_2_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_macros_2_13_2_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_macros_2_13_2_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_jawn_parser_2_13_0_14_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/JsonExamples-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JsonExamples-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/JsonExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JsonExamples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$366adda77f72a805f160$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$366adda77f72a805f160.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$366adda77f72a805f160.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7101bb6694443943feba$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7101bb6694443943feba.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7101bb6694443943feba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7e701d6e08aae4e7ac6a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7e701d6e08aae4e7ac6a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7e701d6e08aae4e7ac6a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c313f59beb873b7e526d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c313f59beb873b7e526d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c313f59beb873b7e526d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c3f6923fd2f3fba342e7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c3f6923fd2f3fba342e7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c3f6923fd2f3fba342e7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eda215987f63907b5465$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eda215987f63907b5465.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eda215987f63907b5465.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/Example1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ClientServerExample/Example1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$17bd1a26902a9befb49f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$17bd1a26902a9befb49f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$17bd1a26902a9befb49f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$2e0180211b6f717bc585$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$2e0180211b6f717bc585.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$2e0180211b6f717bc585.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$373138f2c4758ea50031$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$373138f2c4758ea50031.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$373138f2c4758ea50031.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$9d4ae4fc152a332b3ac5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$9d4ae4fc152a332b3ac5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$9d4ae4fc152a332b3ac5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$a4e853bbb73bd31c2064$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$a4e853bbb73bd31c2064.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/config-classes/$a4e853bbb73bd31c2064.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$4794c0124066d6d32cf8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$4794c0124066d6d32cf8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$4794c0124066d6d32cf8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$48eceda1c3ee4cc2e83f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$48eceda1c3ee4cc2e83f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$48eceda1c3ee4cc2e83f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$9d1bb53ef154ed37c01f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$9d1bb53ef154ed37c01f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$9d1bb53ef154ed37c01f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$9d95319d03c98ae20601$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$9d95319d03c98ae20601.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$9d95319d03c98ae20601.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$bc9af7e2e49100fbcfc3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$bc9af7e2e49100fbcfc3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$bc9af7e2e49100fbcfc3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$d5cd4ba54528670617ff$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$d5cd4ba54528670617ff.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$d5cd4ba54528670617ff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$fb6f3eed8e867b149871$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$fb6f3eed8e867b149871.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$fb6f3eed8e867b149871.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/src/main/protobuf/helloworld.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/src/main/protobuf/helloworld.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/src/main/scala/com/example/helloworld/GreeterClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/src/main/scala/com/example/helloworld/GreeterClient.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/src/main/scala/com/example/helloworld/GreeterServiceImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/src/main/scala/com/example/helloworld/GreeterServiceImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/Citizen.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/GreeterService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/GreeterService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/GreeterServiceClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/GreeterServiceClient.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/GreeterServiceHandler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/GreeterServiceHandler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/HelloworldProto.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/HelloworldProto.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/akka-grpc/main/com/example/helloworld/House.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/DefaultGreeterServiceClient$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/DefaultGreeterServiceClient$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/DefaultGreeterServiceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/DefaultGreeterServiceClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterClient$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterClient$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService$MethodDescriptors$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService$MethodDescriptors$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService$Serializers$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService$Serializers$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterServiceClientPowerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterServiceClientPowerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterServiceHandler$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterServiceHandler$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/GreeterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/HelloworldProto$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/classes/com/example/helloworld/HelloworldProto$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocGenerate/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocGenerate/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocGenerate/_global/streams/protobuf_2.13/input" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocGenerate/_global/streams/protobuf_2.13/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocGenerate/_global/streams/protobuf_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocGenerate/_global/streams/protobuf_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocRunProtoc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/target/streams/compile/protocRunProtoc/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +285,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebApi" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GetWeather" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="GetWeather" />
+      <module name="JsonExamples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GetWeather" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,5 +312,17 @@
       <updated>1620035257926</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
