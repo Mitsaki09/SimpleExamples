@@ -11,19 +11,20 @@ import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 
 
-object MainKurduplikServer extends App {
-
+object MainPigServer extends App {
+  case class Pig(name:String,age:Int,weight:Int,children:Int,tits:Int)
   implicit val system = ActorSystem("my-system")
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
   val routes: Route =
-    path("create" / "kurduplik") {
-      post {
-
-        println("Кто-то вызвал метод create / kurduplik")
-        complete("это просто строка POST, никакого Джисона Стетхема и уважения")
-
+    path("create" / "pig") {
+      parameters("name", "age".as[Int], "weight".as[Int],"children".as[Int],"tits".as[Int]) { (name, age, weight,children,tits) =>
+        get {
+val pig = Pig(name,age,weight,children,tits)
+println(pig)
+          complete(s"$name $age $weight $children $tits")
+        }
       }
     }
 
@@ -32,18 +33,18 @@ object MainKurduplikServer extends App {
 
 }
 
-object MainKurduplikClient extends App {
+object MainPigClient extends App {
   implicit val system = ActorSystem()
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
   val request = HttpRequest(
-    method = HttpMethods.POST,
-    uri = "http://localhost:8080/create/kurduplik"
+    method = HttpMethods.GET,
+    uri = "http://localhost:8080/create/pig?name=Artem&age=19&weight=60&children=0&tits=6"
   )
 
   val resultFuture: Future[HttpResponse] = Http().singleRequest(request)
   val result: HttpResponse = Await.result(resultFuture, Duration.Inf)
 
-  println("MainKurduplikClient:" + Unmarshal(result.entity).to[String])
+  println("MainPigClient:" + Unmarshal(result.entity).to[String])
 }

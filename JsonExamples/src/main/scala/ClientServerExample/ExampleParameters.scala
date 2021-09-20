@@ -11,19 +11,20 @@ import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 
 
-object MainKurduplikServer extends App {
+object MainParamkServer extends App {
 
   implicit val system = ActorSystem("my-system")
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
   val routes: Route =
-    path("create" / "kurduplik") {
-      post {
+    path("create" / "param") {
+      parameters("int1".as[Int].optional, "int2".as[Int].optional, "int3".as[Int].optional) { (int1, int2, int3) =>
+        get {
 
-        println("Кто-то вызвал метод create / kurduplik")
-        complete("это просто строка POST, никакого Джисона Стетхема и уважения")
-
+val sum = int1.getOrElse(0)+ int2.getOrElse(0) +int3.getOrElse(0)
+          complete(s"$sum")
+        }
       }
     }
 
@@ -32,18 +33,18 @@ object MainKurduplikServer extends App {
 
 }
 
-object MainKurduplikClient extends App {
+object MainParamClient extends App {
   implicit val system = ActorSystem()
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
   val request = HttpRequest(
-    method = HttpMethods.POST,
-    uri = "http://localhost:8080/create/kurduplik"
+    method = HttpMethods.GET,
+    uri = "http://localhost:8080/create/param?int1=1&int2=2&int3=4"
   )
 
   val resultFuture: Future[HttpResponse] = Http().singleRequest(request)
   val result: HttpResponse = Await.result(resultFuture, Duration.Inf)
 
-  println("MainKurduplikClient:" + Unmarshal(result.entity).to[String])
+  println("MainParamClient:" + Unmarshal(result.entity).to[String])
 }

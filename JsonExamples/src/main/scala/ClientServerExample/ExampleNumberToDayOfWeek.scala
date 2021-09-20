@@ -11,19 +11,29 @@ import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 
 
-object MainKurduplikServer extends App {
+object NumberToDayOfWeekServer extends App {
 
   implicit val system = ActorSystem("my-system")
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
   val routes: Route =
-    path("create" / "kurduplik") {
-      post {
+    path("numberToDayOfWeek") {
+      parameters("number".as[Int]){ number =>
+        post {
+val numberMatch = number match {
+  case number1 if number == 1 => "Понедельник"
+  case number2 if number == 2 => "Вторник"
+  case number3 if number == 3 => "Среда"
+  case number4 if number == 4 => "Четверг"
+  case number5 if number == 5 => "Пятницв"
+  case number6 if number == 6 => "Суббота"
+  case number7 if number == 7 => "Воскресенье"
+  case _ => "ОШБИКА"
+}
 
-        println("Кто-то вызвал метод create / kurduplik")
-        complete("это просто строка POST, никакого Джисона Стетхема и уважения")
-
+          complete(s"$numberMatch")
+        }
       }
     }
 
@@ -32,18 +42,19 @@ object MainKurduplikServer extends App {
 
 }
 
-object MainKurduplikClient extends App {
-  implicit val system = ActorSystem()
+object NumberToDayOfWeekClient extends App {
+  implicit val system = ActorSystem("my-system")
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
+
   val request = HttpRequest(
     method = HttpMethods.POST,
-    uri = "http://localhost:8080/create/kurduplik"
+    uri = "http://localhost:8080/numberToDayOfWeek?number=5"
   )
 
   val resultFuture: Future[HttpResponse] = Http().singleRequest(request)
   val result: HttpResponse = Await.result(resultFuture, Duration.Inf)
 
-  println("MainKurduplikClient:" + Unmarshal(result.entity).to[String])
+  println("NumberToDayOfWeekClient:" + Unmarshal(result.entity).to[String])
 }
