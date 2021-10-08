@@ -26,3 +26,8 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic" % "0.13.0-RC1",
   "org.scalatest" %% "scalatest" % "3.2.2"
 )
+libraryDependencies ++= Seq(
+  "com.typesafe.slick" %% "slick" % "3.3.2",
+  "org.postgresql" % "postgresql" % "42.2.10",
+  "com.github.tminglei" %% "slick-pg_core" % "0.18.1"
+)

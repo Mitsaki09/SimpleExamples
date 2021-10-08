@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aa7084c-e174-44c8-a04c-9d6442932454" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_tminglei_slick_pg_core_2_13_0_18_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_2_13_3_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_postgresql_postgresql_42_2_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_collection_compat_2_13_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi2/.idea/modules/webapi2_5898-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi2/.idea/modules/webapi2_5898.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/project/target/config-classes/$58890fd5a26ff924c0c9$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/project/target/config-classes/$58890fd5a26ff924c0c9.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/project/target/config-classes/$58890fd5a26ff924c0c9.class" beforeDir="false" />
@@ -41,12 +49,448 @@
       <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/FirstClassFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/FirstClassFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/AbstractClassExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/AuxiliaryConstructors.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/BasicTypesAndOperations.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/ConfigsExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/DefWithAbstract.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/FirstClassFunctions.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Future.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/otherExample/Future.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Generic.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/HelloWord.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/ImplicitExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/MyList.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/ObjectEquality.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/PrivateAndPublecMethods.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Proto.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Recursion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/otherExample/Recursion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/RepeatedParameters.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/StringInterpolation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/StripMargin.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/TooString.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/TraitExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/TrySuccessFailure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/otherExample/TrySuccessFailure.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/VariableScope.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/src/main/scala/WorkWithFile.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AbstractClassExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AbstractClassExample$Drachun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AbstractClassExample$Mob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AbstractClassExample$Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AbstractClassExample$Wolf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AbstractClassExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AbstractClassExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AuxiliaryConstructors$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AuxiliaryConstructors$Human$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AuxiliaryConstructors$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AuxiliaryConstructors$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/AuxiliaryConstructors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/BasicTypesAndOperations$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/BasicTypesAndOperations$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/BasicTypesAndOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ConfigsExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ConfigsExample$StrInt$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ConfigsExample$StrInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ConfigsExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ConfigsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/DefWithAbstract$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/DefWithAbstract$DestinysCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/DefWithAbstract$Jopa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/DefWithAbstract$Udacha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/DefWithAbstract$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/DefWithAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Cat$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$DD$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$DD2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Dick$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Dick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Eggs$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Eggs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Flot$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Flot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Glist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$GraphicsCard$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$GraphicsCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Human$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Human6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Motherboard$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Motherboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$PK$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$PK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Pilot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Plain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Ship$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Soldat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$Tractorist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FirstClassFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future3$Human$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future3$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future3$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future4$ClassWithTraitAndFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future4$MethodWithFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future4$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future5$AbstractClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future5$Class$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future5$Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future5$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Future6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FutureEx1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FutureEx1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FutureEx1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FutureEx1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/FutureEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$Human5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$Student$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Generic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/HelloWord$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/HelloWord$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/HelloWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Alcoholic$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Alcoholic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Beer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Beer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Elephant$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Elephant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Engineer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Engineer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Fly$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Fly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$FlyHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$FlyingPastaMonster$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$FlyingPastaMonster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$IntWithTimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Plain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$Plain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ImplicitExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/MyList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/MyList$Vzvod$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/MyList$Vzvod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/MyList$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ObjectEquality$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ObjectEquality$Human$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ObjectEquality$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ObjectEquality$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/ObjectEquality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/PrivateAndPublecMethods$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/PrivateAndPublecMethods$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/PrivateAndPublecMethods$Math.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/PrivateAndPublecMethods$MathTurbo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/PrivateAndPublecMethods$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/PrivateAndPublecMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Proto$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Proto$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Proto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion3$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Recursion3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/RepeatedParameters$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/RepeatedParameters$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/RepeatedParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StringInterpolation$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StringInterpolation$Human$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StringInterpolation$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StringInterpolation$Human1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StringInterpolation$Human1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StringInterpolation$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StringInterpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StripMargin$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StripMargin$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/StripMargin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Test$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Animal$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Human$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Human1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Human1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Human5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$Human5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TooString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$AbstractSelfTypeExampleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$Gomunkul.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$HomeAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$Jenstvinost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$MethodAsVal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$MethodAsValImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$MethodAsValImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$Minus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$Mujichnost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$NyaNya.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$SelfTypeExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$SelfTypeExampleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$SelfTypeExampleWithMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$SumAndMinusImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TraitExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/TrySuccessFailure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/VariableScope$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/VariableScope$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/VariableScope$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/VariableScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/WorkWithFile$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/WorkWithFile$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/WorkWithFile$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/scala-2.13/classes/WorkWithFile.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExampleForWork/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../ExampleForWork/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/JsonExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JsonExamples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExamplePost.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExamplePost.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/Example1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/Example1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/Example2methods.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/Example2methods.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExampleFistn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExampleFistn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExampleNumberToDayOfWeek.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExampleNumberToDayOfWeek.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExampleParameters.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExampleParameters.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExamplePhone.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExamplePhone.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExamplePig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExamplePig.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExamplePiskalet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExamplePiskalet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExamplePost.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExamplePost.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExampleUser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExampleUser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExampleWitheSeq.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExampleWitheSeq.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ClientServerExample/ExampleWord.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/ExampleWord.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Weather.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clientServerExample/otherExample/Weather.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayClient2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayClient2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayClient2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainBirthdayServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainFistClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainFistClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainFistClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainFistServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainFistServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainFistServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainKurduplikClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainKurduplikClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainKurduplikClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainKurduplikServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainKurduplikServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainKurduplikServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainParamClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainParamClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainParamClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainParamkServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainParamkServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainParamkServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneClient1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneClient1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneClient1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$19$1$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$19$1$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$19$1$anon$macro$17$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$19$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$9$1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$9$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$9$1$anon$macro$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone$anon$lazy$macro$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPhoneServer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigServer$Pig$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigServer$Pig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPigServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletClient1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletClient1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletClient1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$11$1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$11$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$11$1$anon$macro$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$23$1$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$23$1$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$23$1$anon$macro$21$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet$anon$lazy$macro$23$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$Piskalet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainPiskaletServer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$11$1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$11$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$11$1$anon$macro$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$23$1$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$23$1$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$23$1$anon$macro$21$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User$anon$lazy$macro$23$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainUserServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainWordClient2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainWordClient2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainWordClient2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainWordServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainWordServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/MainWordServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/NumberToDayOfWeekClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/NumberToDayOfWeekClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/NumberToDayOfWeekClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/NumberToDayOfWeekServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/NumberToDayOfWeekServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/NumberToDayOfWeekServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/SeqVarClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/SeqVarClient$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/SeqVarClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/SeqVarServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/SeqVarServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/ClientServerExample/SeqVarServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$15$1$$anon$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$15$1$$anon$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$15$1$anon$macro$13$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$15$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$7$1$$anon$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$7$1$$anon$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$7$1$anon$macro$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo$anon$lazy$macro$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CloudsInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$19$1$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$19$1$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$19$1$anon$macro$17$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$19$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$9$1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$9$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$9$1$anon$macro$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo$anon$lazy$macro$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/CoordInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/GetWeather$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/GetWeather$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/GetWeather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$31$2$$anon$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$31$2$$anon$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$31$2$anon$macro$29$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$31$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$63$1$$anon$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$63$1$$anon$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$63$1$anon$macro$61$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info$anon$lazy$macro$63$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$17$1$$anon$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$17$1$$anon$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$17$1$anon$macro$15$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$17$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$35$1$$anon$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$35$1$$anon$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$35$1$anon$macro$33$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo$anon$lazy$macro$35$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MainInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$15$2$$anon$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$15$2$$anon$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$15$2$anon$macro$13$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$15$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$31$1$$anon$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$31$1$$anon$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$31$1$anon$macro$29$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo$anon$lazy$macro$31$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SysInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$11$1$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$11$1$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$11$1$anon$macro$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$23$1$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$23$1$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$23$1$anon$macro$21$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo$anon$lazy$macro$23$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WeatherInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$19$2$$anon$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$19$2$$anon$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$19$2$anon$macro$17$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$19$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$9$2$$anon$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$9$2$$anon$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$9$2$anon$macro$7$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo$anon$lazy$macro$9$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/WindInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../LogginigExample/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SlickExample2/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/.bsp/sbt.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/.idea/modules/SlickExample2.iml" afterDir="false" />
@@ -90,6 +534,118 @@
       <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/update/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SlickExample2/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/.idea/modules/WebApi-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/.idea/modules/WebApi-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/.idea/modules/WebApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/.idea/modules/WebApi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$effbdf2ce201b5a7a9c4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$effbdf2ce201b5a7a9c4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/project/target/config-classes/$effbdf2ce201b5a7a9c4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$0ac433a79e138b5d9fa3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$0ac433a79e138b5d9fa3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$0ac433a79e138b5d9fa3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$14a914bbecbfed286e9c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$14a914bbecbfed286e9c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$14a914bbecbfed286e9c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$29941aad116a12d3fcef$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$29941aad116a12d3fcef.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$29941aad116a12d3fcef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$420f27d0342ca3e3915d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$420f27d0342ca3e3915d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$420f27d0342ca3e3915d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$62288be43b0f49d627aa$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$62288be43b0f49d627aa.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$62288be43b0f49d627aa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$6775ad8df439bd3325f6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$6775ad8df439bd3325f6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$6775ad8df439bd3325f6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$6d7eb791194d199f32a6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$6d7eb791194d199f32a6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$6d7eb791194d199f32a6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$8803943b4525a22b5bd0$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$8803943b4525a22b5bd0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$8803943b4525a22b5bd0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$b89db0f84b61ca4edbfe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$b89db0f84b61ca4edbfe.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$b89db0f84b61ca4edbfe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$bc00379502701b18caeb$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$bc00379502701b18caeb.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$bc00379502701b18caeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$e9085f77462113b0a6bb$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$e9085f77462113b0a6bb.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/config-classes/$e9085f77462113b0a6bb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi2/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_chuusai_shapeless_2_13_2_3_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_10_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_twitter_hpack_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_6_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_13_10_2_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_13_10_2_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_13_10_2_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_13_2_6_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_13_2_6_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_config_1_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_13_0_4_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__de_heikoseeberger_akka_http_circe_2_13_1_36_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__io_circe_circe_core_2_13_0_13_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__io_circe_circe_generic_2_13_0_13_0_RC1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__io_circe_circe_jawn_2_13_0_13_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__io_circe_circe_numbers_2_13_0_13_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__io_circe_circe_parser_2_13_0_13_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_0_9_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_13_1_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_typelevel_cats_core_2_13_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_typelevel_cats_kernel_2_13_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_typelevel_cats_macros_2_13_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/libraries/sbt__org_typelevel_jawn_parser_2_13_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/modules/WebApi-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/modules/WebApi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApi2/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApi2/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$4794c0124066d6d32cf8$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$4794c0124066d6d32cf8.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../akka-grpc-quickstart-scala3/project/target/config-classes/$4794c0124066d6d32cf8.class" beforeDir="false" />
@@ -167,6 +723,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -191,15 +754,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExampleForWork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SlickExample2" />
   </component>
-  <component name="RunManager" selected="Application.MainUserClient">
-    <configuration name="MainPiskaletClient1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ClientServerExample.MainPiskaletClient1" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\SimpleExamples\JsonExamples\src\main\scala\clientServerExample\exampleHuman\humanJson" />
+      <recent name="D:\projects\SimpleExamples\JsonExamples\src\main\scala\clientServerExample\exampleHuman\tables" />
+      <recent name="D:\projects\SimpleExamples\JsonExamples\src\main\scala\clientServerExample\exampleHuman\dao" />
+      <recent name="D:\projects\SimpleExamples\JsonExamples\src\main\scala\clientServerExample\exampleHuman" />
+      <recent name="D:\projects\SimpleExamples\JsonExamples\src\main\scala\clientServerExample\slickWithJsonAnimal" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainFoodServer">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clientServerExample.slickWithJsonTrainer.Main" />
       <module name="JsonExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClientServerExample.*" />
+          <option name="PATTERN" value="clientServerExample.slickWithJsonTrainer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +779,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPiskaletServer1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ClientServerExample.MainPiskaletServer1" />
+    <configuration name="MainAnimalServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clientServerExample.slickWithJsonAnimal.animalJson.MainAnimalServer" />
       <module name="JsonExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClientServerExample.*" />
+          <option name="PATTERN" value="clientServerExample.slickWithJsonAnimal.animalJson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,12 +792,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainUserClient" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ClientServerExample.MainUserClient" />
+    <configuration name="MainFoodServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clientServerExample.otherExample.MainFoodServer" />
       <module name="JsonExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClientServerExample.*" />
+          <option name="PATTERN" value="clientServerExample.otherExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +805,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainUserServer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ClientServerExample.MainUserServer" />
+    <configuration name="MainKurduplikServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exampleWithEntity.exampleSchool.MainKurduplikServer" />
       <module name="JsonExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClientServerExample.*" />
+          <option name="PATTERN" value="exampleWithEntity.exampleSchool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +818,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeqVarClient" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ClientServerExample.SeqVarClient" />
+    <configuration name="MainTrainerServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clientServerExample.slickWithJsonTrainer.trainerJson.MainTrainerServer" />
       <module name="JsonExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClientServerExample.*" />
+          <option name="PATTERN" value="clientServerExample.slickWithJsonTrainer.trainerJson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +833,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainUserClient" />
-        <item itemvalue="Application.MainUserServer" />
-        <item itemvalue="Application.MainPiskaletClient1" />
-        <item itemvalue="Application.MainPiskaletServer1" />
-        <item itemvalue="Application.SeqVarClient" />
+        <item itemvalue="Application.MainFoodServer" />
+        <item itemvalue="Application.MainKurduplikServer" />
+        <item itemvalue="Application.MainAnimalServer" />
+        <item itemvalue="Application.MainTrainerServer" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

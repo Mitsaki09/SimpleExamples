@@ -1,3 +1,4 @@
 [debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/D:/SimpleExamples/JsonExamples/project/"), "jsonexamples-build")...
-[debug] Done updating ProjectRef(uri("file:/D:/SimpleExamples/JsonExamples/project/"), "jsonexamples-build")
+[debug] Updating ProjectRef(uri("file:/D:/projects/SimpleExamples/JsonExamples/project/"), "jsonexamples-build")...
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug] Done updating ProjectRef(uri("file:/D:/projects/SimpleExamples/JsonExamples/project/"), "jsonexamples-build")
