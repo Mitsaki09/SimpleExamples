@@ -1,3 +1,5 @@
+package otherExample
+
 import scala.util.{Failure, Success, Try}
 
 class TrySuccessFailure {
